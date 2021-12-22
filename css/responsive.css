@@ -1,3 +1,28 @@
+@media only screen and (min-width: 1920px) {
+    .experience .experience-column{
+        padding-left: 10rem;
+    }
+}
+/* Ipad pro 8*/
+@media only screen and (max-width: 1024px){
+    .senoir .image {
+        position: absolute;
+        top: 42px;
+        left: 1.5rem;
+    }
+    
+    .senoir .image img {
+        width: 100%;
+    }
+    .senoir .background img {
+        width: 100%;
+    }
+    .form-client .form-client-row .image {
+        position: absolute;
+        top: 3.4rem;
+        right: 4.5rem;
+    }
+}
 /* Ipad & Mobi */
 @media only screen and (max-width: 980px) {
     /*reset*/
@@ -28,6 +53,7 @@
         margin-bottom: 20px!important;
         padding-top: 0!important;
     }
+
     .question .image-question::after {
         display:  none;
     }
