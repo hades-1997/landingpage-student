@@ -1,6 +1,6 @@
 # landingpage-student
 
-css lại mobie reponsive
+#css lại mobie reponsive
 
 
 .navbar-collapse {
