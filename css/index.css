@@ -169,10 +169,22 @@ header nav .navbar-collapse .navbar-nav .nav-item .nav-link{
     right: -40px;
     width: 45rem;
     height: 45rem;
+    /* animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+
 }
 .experience .background-circle .circle{
     position: absolute;
     top: 73px;
+}
+@keyframes circle {
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+    /* 0% {top:0px,}
+    100%{top:10px} */
+    
 }
 .experience .background-circle .message{
         position: absolute;
@@ -284,6 +296,13 @@ header nav .navbar-collapse .navbar-nav .nav-item .nav-link{
     background-color: #e1892b;
     border-color: #ffc107;
 }
+.senoir .background img{
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
 /* form-client css */
 .form-client{
     padding: 5rem 0;
@@ -303,9 +322,11 @@ header nav .navbar-collapse .navbar-nav .nav-item .nav-link{
     border: 1px solid #e9b629;
     border-radius: 1rem;
 }
+
 .form-client .form-client-row .backgrond img{
     width: 100%;
 }
+
 .form-client .form-client-row .image {
     position: absolute;
     top: 5rem;
